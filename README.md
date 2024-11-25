@@ -7,11 +7,11 @@ CSS3: Implements responsive design using Flexbox and Grid.<br/>
 JavaScript: Handles interactivity, dynamic content updates, and user input management.<br/>
 
 # Features
-Problem Tracking: Keep track of solved, unsolved, and attempted problems.
-Statistics: View detailed stats, such as total problems solved, easy problems solved, hard problems solved.
-Responsive UI: Built using modern CSS features (Flexbox, Grid) for optimal viewing across devices.
-Interactive: Dynamic filtering and search functionality powered by JavaScript.
-Local Storage: Saves user progress locally to ensure data persistence between sessions.
+Problem Tracking: Keep track of solved, unsolved, and attempted problems.<br/>
+Statistics: View detailed stats, such as total problems solved, easy problems solved, hard problems solved.<br/>
+Responsive UI: Built using modern CSS features (Flexbox, Grid) for optimal viewing across devices.<br/>
+Interactive: Dynamic filtering and search functionality powered by JavaScript.<br/>
+Local Storage: Saves user progress locally to ensure data persistence between sessions.<br/>
 
 # User Interface LeetArena Project
 ![LeetArena Project 1st Image](https://github.com/user-attachments/assets/f2d4bac4-2923-4051-a58b-89e221cddf61)
