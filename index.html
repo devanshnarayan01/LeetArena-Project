@@ -4,29 +4,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of the page shown in the browser tab -->
     <title>LeetArena</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+    <!-- Main container for the webpage content -->
     <div class="container">
+        <!-- Heading for the website -->
         <h1>LeetArena</h1>
 
+        <!-- User input section to enter LeetCode username -->
         <div class="user-container">
             <p>LeetCode Account Username :</p>
             <div class="user-input-container">
+                <!-- Text input for username -->
                 <input type="text" placeholder="Enter your username here" id="user-input">
+                <!-- Button to trigger the search action -->
                 <button id="search-btn">Search</button>
             </div>
         </div>
 
+        <!-- Stats container for displaying user progress -->
         <div class="stats-container">
 
             <div class="progress">
 
+                <!-- Each progress item represents a difficulty level -->
                 <div class="progress-item">
                     <div class="easy-progress circle">
+                        <!-- Label for easy progress -->
                         <span id="easy-label"></span>
                         <p>Easy</p>
                     </div>
@@ -34,6 +43,7 @@
 
                 <div class="progress-item ">
                     <div class="medium-progress circle">
+                        <!-- Label for medium progress -->
                         <span id="medium-label"></span>
                         <p>Medium</p>
                     </div>
@@ -41,17 +51,20 @@
 
                 <div class="progress-item ">
                     <div class="hard-progress circle">
+                        <!-- Label for hard progress -->
                         <span id="hard-label"></span>
                         <p>Hard</p>
                     </div>
                 </div>
             </div>
 
+            <!-- Container for dynamically generated stats cards -->
             <div class="stats-cards">
                 <!-- Cards will be populated dynamically -->
             </div>
         </div>
 
+        <!-- Footer with copyright information -->
         <footer>
             <p>&copy; 2024 Devansh Narayan Singh. All Rights Reserved.</p>
         </footer>

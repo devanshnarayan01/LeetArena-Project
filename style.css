@@ -7,6 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
+/* Styling for the body element */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f6f9;
@@ -20,6 +21,7 @@ body {
     background: #ecf0f3;
 }
 
+/* Styling for Container */
 .container {
     background-color: #ffffff;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -31,6 +33,7 @@ body {
     box-sizing: border-box;
 }
 
+/* Styling for the main heading (site title) */
 h1 {
     font-family: 'Dancing Script', cursive;
     font-size: 3.5rem;
@@ -46,14 +49,17 @@ h1 {
     transition: transform 0.3s ease;
 }
 
+/* Slight zoom effect on hover for main heading*/
 h1:hover {
     transform: scale(1.1);
 }
 
+/* User input container section with a margin at the bottom */
 .user-container {
     margin-bottom: 30px;
 }
 
+/* Styling for the paragraph inside user container (input label) */
 .user-container p {
     font-family: 'Pacifico', cursive;
     font-size: 1.2rem;
@@ -69,6 +75,7 @@ h1:hover {
     color: transparent;
 }
 
+/* Adding hover effect for label text */
 .user-container p:hover {
     transform: scale(1.1);
     background: linear-gradient(90deg, #6a11cb, #2575fc);
@@ -77,6 +84,7 @@ h1:hover {
     color: transparent;
 }
 
+/* Designing the Container for user input field and search button */
 .user-input-container {
     display: flex;
     justify-content: center;
@@ -85,6 +93,7 @@ h1:hover {
     margin-top: 10px;
 }
 
+/* Styling for the username input field */
 #user-input {
     padding: 12px 20px;
     font-size: 1rem;
@@ -96,6 +105,7 @@ h1:hover {
     text-align: center;
 }
 
+/* Placeholder text style for the input field */
 #user-input::placeholder {
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
@@ -107,6 +117,7 @@ h1:hover {
     text-align: center;
 }
 
+/* Changes the placeholder and input border color */
 #user-input:focus::placeholder {
     color: #3498db;
     opacity: 1;
@@ -117,6 +128,7 @@ h1:hover {
     box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
 }
 
+/* Styling for the search button */
 #search-btn {
     padding: 12px 20px;
     font-size: 1rem;
@@ -128,6 +140,7 @@ h1:hover {
     transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.2s ease;
 }
 
+/* adding hover effect for search button */
 #search-btn:hover {
     background-color: #2980b9;
     transform: scale(1.1);
@@ -135,16 +148,19 @@ h1:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
+/* Active state for the search button when clicked */
 #search-btn:active {
     background-color: #2471a3;
     transform: scale(0.95);
     box-shadow: none;
 }
 
+/* Styling for the stats section container */
 .stats-container {
     margin-top: 40px;
 }
 
+/* Layout for progress indicators, flexbox-based */
 .progress {
     display: flex;
     justify-content: space-around;
@@ -153,6 +169,7 @@ h1:hover {
     flex-wrap: wrap;
 }
 
+/* Individual progress item styling */
 .progress-item {
     display: flex;
     flex-direction: column;
@@ -160,6 +177,7 @@ h1:hover {
     position: relative;
 }
 
+/* Styling for the circular progress indicators */
 .circle {
     width: 120px;
     height: 120px;
@@ -179,10 +197,12 @@ h1:hover {
     overflow: hidden;
 }
 
+/* Hover effect for circles */
 .circle:hover {
     transform: scale(1.05);
 }
 
+/* Styling for the progress text inside the circle */
 .circle span {
     font-size: 2rem;
     font-weight: bold;
@@ -192,6 +212,7 @@ h1:hover {
     animation: slide 10s linear infinite;
 }
 
+/* Keyframe animation to make the text in the circle slide horizontally */
 @keyframes slide {
     0% {
         transform: translateX(100%);
@@ -210,6 +231,7 @@ h1:hover {
     text-align: center;
 }
 
+/* Progress bar color for easy difficulty */
 .easy-progress {
     border-color: #2ecc71;
 }
@@ -218,6 +240,7 @@ h1:hover {
     color: #2ecc71;
 }
 
+/* Progress bar color for medium difficulty */
 .medium-progress {
     border-color: #f39c12;
 }
@@ -226,6 +249,7 @@ h1:hover {
     color: #f39c12;
 }
 
+/* Progress bar color for hard difficulty */
 .hard-progress {
     border-color: #e74c3c;
 }
@@ -234,6 +258,7 @@ h1:hover {
     color: #e74c3c;
 }
 
+/* Layout for stat cards, grid-based for responsiveness */
 .stats-cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -242,6 +267,7 @@ h1:hover {
     padding: 20px;
 }
 
+/* Styling for each stat card */
 .card {
     background-color: #ffffff;
     border-radius: 15px;
@@ -257,17 +283,20 @@ h1:hover {
     border-image: linear-gradient(90deg, #3498db, #9b59b6, #e91e63, #ff9800) 1;
 }
 
+/* Hover effect for cards */
 .card:hover {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
     transform: translateY(-5px);
 }
 
+/* Styling for card headings */
 .card h4 {
     font-size: 1.2rem;
     color: #2c3e50;
     margin-bottom: 10px;
 }
 
+/* Styling for card text */
 .card p {
     color: #2c3e50;
     font-size: 1.2rem;
@@ -297,9 +326,10 @@ h1:hover {
     justify-content: space-between;
 }
 
+/* Responsive design for tablets */
 @media (max-width: 768px) {
     .stats-cards {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr; /* Stacks cards vertically */
         gap: 15px;
     }
 
@@ -309,6 +339,7 @@ h1:hover {
     }
 }
 
+/* Responsive design for mobile devices */
 @media (max-width: 480px) {
     .stats-cards {
         grid-template-columns: 1fr;
@@ -321,6 +352,7 @@ h1:hover {
     }
 }
 
+/* Footer section styling */
 footer {
     text-align: center;
     padding: 10px;
